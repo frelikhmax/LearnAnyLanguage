@@ -7,26 +7,33 @@ export enum Language {
   spanish = "Spanish",
 }
 
-export type Word = {
+export type LanguageMap = {
   [K in Language]?: string;
 };
 
-const nothing = {
+export interface Word extends LanguageMap {
+  basicLanguage: Language;
+}
+
+const nothing: Word = {
   [Language.english]: "Nothing",
   [Language.russian]: "Ничего",
   [Language.spanish]: "Nada",
+  basicLanguage: Language.spanish
 };
 
-const yes = {
+const yes: Word = {
   [Language.english]: "Yes",
   [Language.russian]: "Да",
   [Language.spanish]: "Sí",
+  basicLanguage: Language.spanish
 };
 
-const i = {
+const i: Word = {
   [Language.english]: "I",
   [Language.russian]: "Я",
   [Language.spanish]: "Yo",
+  basicLanguage: Language.spanish
 };
 
 const words = [nothing, yes, i];
@@ -34,7 +41,11 @@ const words = [nothing, yes, i];
 const App = () => {
   return (
     <div className="App">
-      <Quiz words={words} original={Language.english} translation={Language.spanish}/>
+      <Quiz
+        words={words}
+        original={Language.english}
+        translation={Language.spanish}
+      />
     </div>
   );
 };
