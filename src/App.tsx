@@ -42,18 +42,43 @@ const words = [
     basicLanguage: Language.spanish,
   },
   {
-    [Language.english]: "at the airport",
-    [Language.spanish]: "al aeropuerto",
+    [Language.english]: "At the airport",
+    [Language.spanish]: "Al aeropuerto",
     basicLanguage: Language.spanish,
   },
   {
-    [Language.english]: "and",
-    [Language.spanish]: "y",
+    [Language.english]: "And",
+    [Language.spanish]: "Y",
     basicLanguage: Language.spanish,
   },
   {
-    [Language.english]: "tommorow",
-    [Language.spanish]: "mañana",
+    [Language.english]: "Tommorow",
+    [Language.spanish]: "Mañana",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Too",
+    [Language.spanish]: "Muy",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Perfect",
+    [Language.spanish]: "Perfect(o/a)",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Great",
+    [Language.spanish]: "Genial",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Thanks",
+    [Language.spanish]: "Gracias",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "My",
+    [Language.spanish]: "Mi(-s)",
     basicLanguage: Language.spanish,
   },
 ];

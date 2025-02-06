@@ -11,33 +11,42 @@ export interface Props {
 }
 
 export const Quiz = ({ words, original, translation }: Props) => {
-  const shuffledArray = useMemo(() => shuffle(words), [words]);
+  const [shownTranslationWords, setShownTranslationWords] = useState<Word[]>(
+    []
+  );
 
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const shuffledArray = useMemo(() => shuffle(words), [words]);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
-  const currentWord =
-    currentIndex !== shuffledArray.length
-      ? shuffledArray[currentIndex]
-      : shuffledArray[shuffledArray.length - 1];
+  const handleShowTranslation = (word: Word) => {
+    setShownTranslationWords([...shownTranslationWords, word]);
+  };
+
+  const isGoing = currentIndex !== shuffledArray.length;
+
+  if (!isGoing) {
+    console.log(shownTranslationWords);
+  }
 
   return (
     <div className="quiz-container">
-      <h1>
-        {currentIndex !== shuffledArray.length
-          ? "Word Translator Quiz"
-          : "The End"}
-      </h1>
-      <Card
-        word={currentWord}
-        original={original}
-        translation={translation}
-        isGoing={currentIndex !== shuffledArray.length}
-        onNextClick={handleNext}
-      ></Card>
+      <h1>{isGoing ? "Word Translator Quiz" : "The End"}</h1>
+      {isGoing && (
+        <Card
+          word={shuffledArray[currentIndex]}
+          original={original}
+          translation={translation}
+          onNextClick={handleNext}
+          onShowTranslation={() =>
+            handleShowTranslation(shuffledArray[currentIndex])
+          }
+        ></Card>
+      )}
     </div>
   );
 };
