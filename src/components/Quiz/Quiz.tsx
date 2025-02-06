@@ -9,7 +9,7 @@ export interface Props {
   words: Word[];
   original: Language;
   translation: Language;
-  handleStartNewQuiz: (newWords: Word[]) => void;
+  handleStartNewQuiz: (newWords?: Word[]) => void;
 }
 
 export const Quiz = ({
@@ -26,6 +26,11 @@ export const Quiz = ({
 
   const shuffledArray = useMemo(() => shuffle(words), [words]);
 
+  useEffect(() => {
+    setShownTranslationWords([]);
+    setCurrentIndex(0);
+  }, [words]);
+
   const handleNext = () => {
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
@@ -40,13 +45,19 @@ export const Quiz = ({
     handleStartNewQuiz(shownTranslationWords);
   };
 
+  const handleRestartQuiz = () => {
+    setShownTranslationWords([]);
+    setCurrentIndex(0);
+    handleStartNewQuiz();
+  };
+
   const isGoing = currentIndex !== shuffledArray.length;
   return (
     <div className="quiz-container">
       <h1>
         {isGoing
           ? "Word Translator Quiz"
-          : shownTranslationWords.length > 0
+          : shownTranslationWords.length
           ? "Translated Words"
           : "Nice"}
       </h1>
@@ -60,15 +71,15 @@ export const Quiz = ({
             handleShowTranslation(shuffledArray[currentIndex])
           }
         ></Card>
+      ) : shownTranslationWords.length ? (
+        <TranslatedWordsList
+          words={shownTranslationWords}
+          handleStartNewQuizWithTranslatedWords={
+            handleStartNewQuizWithTranslatedWords
+          }
+        />
       ) : (
-        shownTranslationWords.length > 0 && (
-          <TranslatedWordsList
-            words={shownTranslationWords}
-            handleStartNewQuizWithTranslatedWords={
-              handleStartNewQuizWithTranslatedWords
-            }
-          />
-        )
+        <button onClick={handleRestartQuiz}>Restart Quiz</button>
       )}
     </div>
   );
