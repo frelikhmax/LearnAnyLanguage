@@ -15,28 +15,48 @@ export interface Word extends LanguageMap {
   basicLanguage: Language;
 }
 
-const nothing: Word = {
-  [Language.english]: "Nothing",
-  [Language.russian]: "Ничего",
-  [Language.spanish]: "Nada",
-  basicLanguage: Language.spanish
-};
-
-const yes: Word = {
-  [Language.english]: "Yes",
-  [Language.russian]: "Да",
-  [Language.spanish]: "Sí",
-  basicLanguage: Language.spanish
-};
-
-const i: Word = {
-  [Language.english]: "I",
-  [Language.russian]: "Я",
-  [Language.spanish]: "Yo",
-  basicLanguage: Language.spanish
-};
-
-const words = [nothing, yes, i];
+const words = [
+  {
+    [Language.english]: "Nothing",
+    [Language.spanish]: "Nada",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Yes",
+    [Language.spanish]: "Sí",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "I",
+    [Language.spanish]: "Yo",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Goodbye",
+    [Language.spanish]: "Adiós",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "Hello",
+    [Language.spanish]: "Hola",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "at the airport",
+    [Language.spanish]: "al aeropuerto",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "and",
+    [Language.spanish]: "y",
+    basicLanguage: Language.spanish,
+  },
+  {
+    [Language.english]: "tommorow",
+    [Language.spanish]: "mañana",
+    basicLanguage: Language.spanish,
+  },
+];
 
 const App = () => {
   return (
