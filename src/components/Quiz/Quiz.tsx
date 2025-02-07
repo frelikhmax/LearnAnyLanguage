@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Card from "../Card/Card";
 import "./Quiz.css";
 import { shuffle } from "../../utils/ShuffleArray";
@@ -21,10 +21,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
 
   const shuffledArray = useMemo(() => shuffle(words), [words]);
 
-  useEffect(() => {
-    setShownTranslationWords([]);
-    setCurrentIndex(0);
-  }, [words]);
+  const isGoing = currentIndex !== shuffledArray.length;
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => prevIndex + 1);
@@ -46,15 +43,14 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
     handleStartNewQuiz();
   };
 
-  const isGoing = currentIndex !== shuffledArray.length;
   return (
     <div className="quiz-container">
       <h1>
         {isGoing
           ? "Word Translator Quiz"
           : shownTranslationWords.length
-          ? "Translated Words"
-          : "Nice"}
+            ? "Translated Words"
+            : "Nice"}
       </h1>
       {isGoing ? (
         <Card

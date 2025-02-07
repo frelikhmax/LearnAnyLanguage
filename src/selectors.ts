@@ -1,0 +1,1 @@
+export const getNativeLanguage = (state: any) => state.user.nativeLanguage;
