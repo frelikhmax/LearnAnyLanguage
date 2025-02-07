@@ -6,7 +6,9 @@ export const Start = () => {
       <button>
         <Link to="/quiz">quiz</Link>
       </button>
-      <button>words</button>
+      <button>
+        <Link to="/learned-words">learned words</Link>
+      </button>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import { Quiz } from "./components/Quiz/Quiz";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Start } from "./components/Start/Start";
 import { initialWords, Language, Word } from "./data/InitialWords";
+import { LearnedWords } from "./components/LearnedWords/LearnedWords";
 
 const App = () => {
   const [words, setWords] = useState<Word[]>(initialWords);
@@ -26,6 +27,10 @@ const App = () => {
               handleStartNewQuiz={handleStartNewQuiz}
             />
           }
+        />
+        <Route
+          path="/learned-words"
+          element={<LearnedWords words={initialWords} />}
         />
       </Routes>
     </BrowserRouter>
