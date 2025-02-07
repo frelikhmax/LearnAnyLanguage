@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Card.css";
-import { Word, Language } from "../../App";
+import { Word, Language } from "../../data/InitialWords";
 
 export interface Props {
   word: Word;

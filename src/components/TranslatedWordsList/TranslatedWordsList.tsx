@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Word } from "../../App";
+import { Word } from "../../data/InitialWords";
 
 export interface Props {
   words: Word[];
