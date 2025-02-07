@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Start = () => {
+const Start = () => {
   return (
     <div>
       <button>
@@ -12,3 +12,5 @@ export const Start = () => {
     </div>
   );
 };
+
+export default Start;

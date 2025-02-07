@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Card.css";
 import { Word, Language } from "../../data/InitialWords";
 
-export interface Props {
+interface Props {
   word: Word;
   original: Language;
   translation: Language;
@@ -10,7 +10,7 @@ export interface Props {
   onShowTranslation: () => void;
 }
 
-export const Card = ({
+const Card = ({
   word,
   original,
   translation,
@@ -60,3 +60,5 @@ export const Card = ({
     </div>
   );
 };
+
+export default Card;

@@ -1,23 +1,18 @@
 import { useEffect, useMemo, useState } from "react";
-import { Card } from "../Card/Card";
+import Card from "../Card/Card";
 import "./Quiz.css";
 import { shuffle } from "../../utils/ShuffleArray";
-import { TranslatedWordsList } from "../TranslatedWordsList/TranslatedWordsList";
+import TranslatedWordsList from "../TranslatedWordsList/TranslatedWordsList";
 import { Word, Language } from "../../data/InitialWords";
 
-export interface Props {
+interface Props {
   words: Word[];
   original: Language;
   translation: Language;
   handleStartNewQuiz: (newWords?: Word[]) => void;
 }
 
-export const Quiz = ({
-  words,
-  original,
-  translation,
-  handleStartNewQuiz,
-}: Props) => {
+const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
   const [shownTranslationWords, setShownTranslationWords] = useState<Word[]>(
     []
   );
@@ -84,3 +79,5 @@ export const Quiz = ({
     </div>
   );
 };
+
+export default Quiz;

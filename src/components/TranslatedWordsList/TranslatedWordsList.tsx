@@ -1,11 +1,11 @@
 import { memo } from "react";
 import { Word } from "../../data/InitialWords";
 
-export interface Props {
+interface Props {
   words: Word[];
   handleStartNewQuizWithTranslatedWords: () => void;
 }
-export const TranslatedWordsList = memo(
+const TranslatedWordsList = memo(
   ({ words, handleStartNewQuizWithTranslatedWords }: Props) => {
     return (
       <div>
@@ -21,3 +21,5 @@ export const TranslatedWordsList = memo(
     );
   }
 );
+
+export default TranslatedWordsList;

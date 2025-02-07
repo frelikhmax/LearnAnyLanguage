@@ -4,7 +4,7 @@ interface Props {
   words: Word[];
 }
 
-export const LearnedWords = ({ words }: Props) => {
+const LearnedWords = ({ words }: Props) => {
   return (
     <div>
       <ul>
@@ -15,3 +15,5 @@ export const LearnedWords = ({ words }: Props) => {
     </div>
   );
 };
+
+export default LearnedWords;
