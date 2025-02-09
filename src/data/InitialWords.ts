@@ -48,7 +48,7 @@ export const testWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Tomorow",
+        [Language.english]: "Tomorrow",
         [Language.spanish]: "Mañana",
         baseLanguage: Language.spanish,
     },
@@ -116,7 +116,7 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Tomorow",
+        [Language.english]: "Tomorrow",
         [Language.spanish]: "Mañana",
         baseLanguage: Language.spanish,
     },
@@ -262,7 +262,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Where are you from?",
-        [Language.spanish]: "¿De dónde eres?",
+        [Language.spanish]: "¿De dndeó eres?",
         baseLanguage: Language.spanish,
     },
     {
@@ -340,6 +340,270 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Buenas noches",
         baseLanguage: Language.spanish,
     },
-    
+    {
+        [Language.english]: "See you later",
+        [Language.spanish]: "Hasta luego",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "See you tomorrow",
+        [Language.spanish]: "Hasta mañana",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "What is your name?",
+        [Language.spanish]: "¿Cómo te llamas?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "My name is Max",
+        [Language.spanish]: "Me llamo Max",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Do you speak Spanish?",
+        [Language.spanish]: "¿Hablas español?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I speak Spanish",
+        [Language.spanish]: "Yo hablo español",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I don't speak Spanish",
+        [Language.spanish]: "No hablo español",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "So so",
+        [Language.spanish]: "Así así, Más o menos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To be (1)",
+        [Language.spanish]: "Ser",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Tall",
+        [Language.spanish]: "Alto/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Short",
+        [Language.spanish]: "Bajo/a, Chaparro/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Brunette",
+        [Language.spanish]: "Moreno/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Blonde",
+        [Language.spanish]: "Rubio/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Redhead",
+        [Language.spanish]: "Pelirrojo/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Pretty",
+        [Language.spanish]: "Bonito/a, Lindo/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Skinny",
+        [Language.spanish]: "Flaco/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fat",
+        [Language.spanish]: "Gordo/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Funny",
+        [Language.spanish]: "Cómico/a, gracioso/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Serious",
+        [Language.spanish]: "Serio/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Shy",
+        [Language.spanish]: "Tímido/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Sincere",
+        [Language.spanish]: "Sincero/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Honest",
+        [Language.spanish]: "Honesto/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Generous",
+        [Language.spanish]: "Generoso/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To be (2)",
+        [Language.spanish]: "Estar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To speak",
+        [Language.spanish]: "Hablar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "English",
+        [Language.spanish]: "Inglés",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "French",
+        [Language.spanish]: "Francés",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "German",
+        [Language.spanish]: "Alemán",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To listen",
+        [Language.spanish]: "Escuchar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To study",
+        [Language.spanish]: "Estudiar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To work",
+        [Language.spanish]: "Trabajar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Where",
+        [Language.spanish]: "Dónde",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Where do you work?",
+        [Language.spanish]: "¿Dónde trabajas?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To buy",
+        [Language.spanish]: "Comprar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To pay",
+        [Language.spanish]: "Pagar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Cash register",
+        [Language.spanish]: "La caja",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The book",
+        [Language.spanish]: "El libro",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The table",
+        [Language.spanish]: "La mesa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The flag",
+        [Language.spanish]: "La bandera",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The floor",
+        [Language.spanish]: "El piso",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The hand",
+        [Language.spanish]: "La mano",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The books",
+        [Language.spanish]: "Los libros",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The tables",
+        [Language.spanish]: "Las mesas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The computer",
+        [Language.spanish]: "La computadora",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The wall",
+        [Language.spanish]: "La pared",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The walls",
+        [Language.spanish]: "Las paredes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A book",
+        [Language.spanish]: "Un libro",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A table",
+        [Language.spanish]: "Una mesa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Some books",
+        [Language.spanish]: "Unos libros",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Some tables",
+        [Language.spanish]: "Unas mesas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A wall",
+        [Language.spanish]: "Una pared",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Some walls",
+        [Language.spanish]: "Unas paredes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To go",
+        [Language.spanish]: "Ir",
+        baseLanguage: Language.spanish,
+    },
 ];
-//¿óáí
+//¿¡óáíé
