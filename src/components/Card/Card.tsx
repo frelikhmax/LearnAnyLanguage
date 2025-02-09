@@ -7,24 +7,17 @@ interface Props {
   original: Language;
   translation: Language;
   onNextClick: () => void;
-  onShowTranslation: () => void;
+  onFail: () => void;
 }
 
-const Card = ({
-  word,
-  original,
-  translation,
-  onNextClick,
-  onShowTranslation,
-}: Props) => {
+const Card = ({ word, original, translation, onNextClick, onFail }: Props) => {
   const [showTranslation, setShowTranslation] = useState(false);
-  const [hasShownTranslation, setHasShownTranslation] = useState(false);
+  const [failed, setFailed] = useState(false);
 
-  const switchTranslation = (toShow: boolean) => {
-    setShowTranslation(toShow);
-    if (toShow && !hasShownTranslation) {
-      setHasShownTranslation(true);
-      onShowTranslation();
+  const handleFail = () => {
+    if (!failed) {
+      setFailed(true);
+      onFail();
     }
   };
 
@@ -39,23 +32,61 @@ const Card = ({
         </div>
       )}
       <div className="buttons">
-        <button
-          onClick={() => {
-            onNextClick();
-            switchTranslation(false);
-            setHasShownTranslation(false);
-          }}
-        >
-          Next
-        </button>
-        <button
-          className={showTranslation ? "hide-translation" : ""}
-          onClick={() => {
-            switchTranslation(!showTranslation);
-          }}
-        >
-          {showTranslation ? "Hide translation" : "Show translation"}
-        </button>
+        {showTranslation ? (
+          <>
+            {failed ? (
+              <button
+                onClick={() => {
+                  onNextClick();
+                  setShowTranslation(false);
+                  setFailed(false);
+                }}
+              >
+                Next
+              </button>
+            ) : (
+              <>
+                <button
+                  onClick={() => {
+                    onNextClick();
+                    setShowTranslation(false);
+                    setFailed(false);
+                  }}
+                >
+                  Right
+                </button>
+                <button
+                  onClick={() => {
+                    onNextClick();
+                    setShowTranslation(false);
+                    onFail();
+                    setFailed(false);
+                  }}
+                >
+                  Wrong
+                </button>
+              </>
+            )}
+          </>
+        ) : (
+          <>
+            <button
+              onClick={() => {
+                setShowTranslation(true);
+              }}
+            >
+              Check
+            </button>
+            <button
+              onClick={() => {
+                setShowTranslation(true);
+                handleFail();
+              }}
+            >
+              Hint
+            </button>
+          </>
+        )}
       </div>
     </div>
   );

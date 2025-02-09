@@ -18,23 +18,8 @@ export const testWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Yes",
-        [Language.spanish]: "Sí",
-        baseLanguage: Language.spanish,
-    },
-    {
-        [Language.english]: "I",
-        [Language.spanish]: "Yo",
-        baseLanguage: Language.spanish,
-    },
-    {
         [Language.english]: "Goodbye",
         [Language.spanish]: "Adiós",
-        baseLanguage: Language.spanish,
-    },
-    {
-        [Language.english]: "Hello",
-        [Language.spanish]: "Hola",
         baseLanguage: Language.spanish,
     },
     {
@@ -43,18 +28,8 @@ export const testWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "And",
-        [Language.spanish]: "Y",
-        baseLanguage: Language.spanish,
-    },
-    {
         [Language.english]: "Tomorrow",
         [Language.spanish]: "Mañana",
-        baseLanguage: Language.spanish,
-    },
-    {
-        [Language.english]: "Too",
-        [Language.spanish]: "Muy",
         baseLanguage: Language.spanish,
     },
     {
@@ -70,11 +45,6 @@ export const testWords: Word[] = [
     {
         [Language.english]: "Thanks",
         [Language.spanish]: "Gracias",
-        baseLanguage: Language.spanish,
-    },
-    {
-        [Language.english]: "My",
-        [Language.spanish]: "Mi(s)",
         baseLanguage: Language.spanish,
     },
 ];

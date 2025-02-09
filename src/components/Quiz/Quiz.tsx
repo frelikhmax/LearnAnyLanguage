@@ -16,10 +16,12 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
   const [shownTranslationWords, setShownTranslationWords] = useState<Word[]>(
     []
   );
+  const [resuffleArray, setResuffleArray] = useState(0);
 
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const shuffledArray = useMemo(() => shuffle(words), [words]);
+  
+  // eslint-disable-next-line
+  const shuffledArray = useMemo(() => shuffle(words), [words, resuffleArray]);
 
   const isGoing = currentIndex !== shuffledArray.length;
 
@@ -27,7 +29,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
-  const handleShowTranslation = (word: Word) => {
+  const handleFail = (word: Word) => {
     setShownTranslationWords([...shownTranslationWords, word]);
   };
 
@@ -41,6 +43,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
     setShownTranslationWords([]);
     setCurrentIndex(0);
     handleStartNewQuiz();
+    setResuffleArray((prevIndex) => prevIndex + 1);
   };
 
   return (
@@ -58,9 +61,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
           original={original}
           translation={translation}
           onNextClick={handleNext}
-          onShowTranslation={() =>
-            handleShowTranslation(shuffledArray[currentIndex])
-          }
+          onFail={() => handleFail(shuffledArray[currentIndex])}
         ></Card>
       ) : shownTranslationWords.length ? (
         <TranslatedWordsList
