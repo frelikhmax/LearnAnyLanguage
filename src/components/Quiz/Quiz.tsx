@@ -47,7 +47,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
     <div className="quiz-container">
       <h1>
         {isGoing
-          ? "Word Translator Quiz"
+          ? `Word Translator Quiz ${currentIndex + 1}/${shuffledArray.length}`
           : shownTranslationWords.length
           ? "Translated Words"
           : "Nice"}
