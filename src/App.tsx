@@ -15,7 +15,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LearnAnyLanguage">
       <Routes>
         <Route path="/" element={<BaseLayout />}>
           <Route index element={<Start />} />
