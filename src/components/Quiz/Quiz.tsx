@@ -49,8 +49,8 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
         {isGoing
           ? "Word Translator Quiz"
           : shownTranslationWords.length
-            ? "Translated Words"
-            : "Nice"}
+          ? "Translated Words"
+          : "Nice"}
       </h1>
       {isGoing ? (
         <Card
@@ -68,6 +68,7 @@ const Quiz = ({ words, original, translation, handleStartNewQuiz }: Props) => {
           handleStartNewQuizWithTranslatedWords={
             handleStartNewQuizWithTranslatedWords
           }
+          handleRestartQuiz={handleRestartQuiz}
         />
       ) : (
         <button onClick={handleRestartQuiz}>Restart Quiz</button>

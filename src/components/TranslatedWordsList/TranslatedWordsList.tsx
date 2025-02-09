@@ -4,9 +4,10 @@ import { Word } from "../../data/InitialWords";
 interface Props {
   words: Word[];
   handleStartNewQuizWithTranslatedWords: () => void;
+  handleRestartQuiz: () => void;
 }
 const TranslatedWordsList = memo(
-  ({ words, handleStartNewQuizWithTranslatedWords }: Props) => {
+  ({ words, handleStartNewQuizWithTranslatedWords, handleRestartQuiz }: Props) => {
     return (
       <div>
         <ul>
@@ -15,8 +16,9 @@ const TranslatedWordsList = memo(
           ))}
         </ul>
         <button onClick={handleStartNewQuizWithTranslatedWords}>
-          Finish them off
+          Finish them
         </button>
+        <button onClick={handleRestartQuiz}>Restart Quiz</button>
       </div>
     );
   }
