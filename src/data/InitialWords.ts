@@ -972,5 +972,56 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Ni más ni menos",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "The razor",
+        [Language.spanish]: "La navaja",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Shaving cream",
+        [Language.spanish]: "La crema de afeitar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The brush",
+        [Language.spanish]: "El cepillo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The comb",
+        [Language.russian]: "Расчёска",
+        [Language.spanish]: "El peine",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The toothbrush",
+        [Language.spanish]: "El cepillo de dientes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The mirror",
+        [Language.spanish]: "El espejo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The makeup",
+        [Language.spanish]: "El maquillaje",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A bar of soap",
+        [Language.spanish]: "Una barra de jabón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A tube of toothpaste",
+        [Language.spanish]: "Un tubo de pasta de dientes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Shampoo",
+        [Language.spanish]: "El champú",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéú
