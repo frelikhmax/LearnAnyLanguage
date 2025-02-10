@@ -232,7 +232,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Where are you from?",
-        [Language.spanish]: "¿De dndeó eres?",
+        [Language.spanish]: "¿De dónde eres?",
         baseLanguage: Language.spanish,
     },
     {
