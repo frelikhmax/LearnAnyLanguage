@@ -746,7 +746,7 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Orange",
+        [Language.english]: "Orange (adj)",
         [Language.spanish]: "Anaranjado",
         baseLanguage: Language.spanish,
     },
