@@ -810,5 +810,167 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Dar",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "To make, To do",
+        [Language.spanish]: "Hacer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To leave, to go out",
+        [Language.spanish]: "Salir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To put",
+        [Language.spanish]: "Poner",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To play",
+        [Language.spanish]: "Jugar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To begin",
+        [Language.spanish]: "Empezar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To say, to tell",
+        [Language.spanish]: "Decir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To be able to",
+        [Language.spanish]: "Poder",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To want",
+        [Language.spanish]: "Querer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To prefer",
+        [Language.spanish]: "Preferir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Clothes",
+        [Language.spanish]: "La ropa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The pants",
+        [Language.spanish]: "El pantalón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The shirt",
+        [Language.spanish]: "La camisa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The neck tie",
+        [Language.spanish]: "La corbata",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The bow tie",
+        [Language.russian]: "Галстук-бабочка",
+        [Language.spanish]: "El lazo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The t-shirt",
+        [Language.spanish]: "La camiseta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The skirt",
+        [Language.spanish]: "La falda",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The blouse",
+        [Language.spanish]: "La blusa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The jacket",
+        [Language.spanish]: "La chaqueta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The coat",
+        [Language.spanish]: "El abrigo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The suit",
+        [Language.spanish]: "El traje",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The cap",
+        [Language.spanish]: "La gorra",
+        baseLanguage: Language.spanish,
+    },
+    
+    {
+        [Language.english]: "The socks",
+        [Language.spanish]: "Los calcetines",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The shoes",
+        [Language.spanish]: "Los zapatos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The tennis shoes",
+        [Language.spanish]: "Los tenis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A pair of tennis shoes",
+        [Language.spanish]: "Un par de tenis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A pair",
+        [Language.spanish]: "Un par",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The belt",
+        [Language.spanish]: "El cinturón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To wear",
+        [Language.spanish]: "Usar, llevar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I wear a green shirt",
+        [Language.spanish]: "Yo uso una camisa verde",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I'm wearing black shoes",
+        [Language.spanish]: "Yo llevo zapatos negros",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Who?",
+        [Language.spanish]: "¿Quén?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "No more and no less",
+        [Language.spanish]: "Ni más ni menos",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéú
