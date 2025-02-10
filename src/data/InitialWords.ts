@@ -232,7 +232,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Where are you from?",
-        [Language.spanish]: "¿De dndeó eres?",
+        [Language.spanish]: "¿De dónde eres?",
         baseLanguage: Language.spanish,
     },
     {
@@ -575,5 +575,402 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Ir",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Meat store",
+        [Language.spanish]: "Carnicería",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Meat",
+        [Language.spanish]: "Carne",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Pharmacy",
+        [Language.spanish]: "Farmacia",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Bakery",
+        [Language.spanish]: "Panadería",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Book store",
+        [Language.spanish]: "Librería",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Library",
+        [Language.spanish]: "Biblioteca",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Post office",
+        [Language.spanish]: "Correo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Gallery, mall",
+        [Language.spanish]: "Galería",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Museum",
+        [Language.spanish]: "Museo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Restaurant",
+        [Language.spanish]: "Restaurante",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Cafe, coffee",
+        [Language.spanish]: "Café",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Cinema",
+        [Language.spanish]: "Cine",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I'm going to the post office",
+        [Language.spanish]: "Yo voy al correo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "She's going to the book store",
+        [Language.spanish]: "Ella va a la librería",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I'm going to pay",
+        [Language.spanish]: "Yo voy a pagar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To eat",
+        [Language.spanish]: "Comer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To read",
+        [Language.spanish]: "Leer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To think, to believe",
+        [Language.spanish]: "Creer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To run",
+        [Language.spanish]: "Correr",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To learn",
+        [Language.spanish]: "Aprender",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "She's learning German",
+        [Language.spanish]: "Ella aprende alemán",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To live",
+        [Language.spanish]: "Vivir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I live in Atlanta",
+        [Language.spanish]: "Yo vivo en Atlanta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To write",
+        [Language.spanish]: "Escribir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To open",
+        [Language.spanish]: "Abrir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To receive",
+        [Language.spanish]: "Recibir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To attend, to assist",
+        [Language.spanish]: "Asistir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I write a letter",
+        [Language.spanish]: "Yo escribo una carta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "She opens the door",
+        [Language.spanish]: "Ella abre la puerta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "White",
+        [Language.spanish]: "Blanco",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Black",
+        [Language.spanish]: "Negro",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Gray",
+        [Language.spanish]: "Gris",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Blue",
+        [Language.spanish]: "Azul",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Yellow",
+        [Language.spanish]: "Amarillo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Orange (adj)",
+        [Language.spanish]: "Anaranjado",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Red",
+        [Language.spanish]: "Rojo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Pink",
+        [Language.spanish]: "Rosa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Green",
+        [Language.spanish]: "Verde",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Brown",
+        [Language.spanish]: "Café",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Purple",
+        [Language.spanish]: "Violeta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "What color is your shirt?",
+        [Language.spanish]: "¿De qué color es tu camisa?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "My shirt is gray",
+        [Language.spanish]: "Mi camisa es gris",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "What color are your shoes?",
+        [Language.spanish]: "¿De qué color son tus zapatos?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "My shoes are black",
+        [Language.spanish]: "Mis zapatos son negros",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Your shirt is green",
+        [Language.spanish]: "Tu camisa es verde",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To see",
+        [Language.spanish]: "Ver",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To give",
+        [Language.spanish]: "Dar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To make, To do",
+        [Language.spanish]: "Hacer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To leave, to go out",
+        [Language.spanish]: "Salir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To put",
+        [Language.spanish]: "Poner",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To play",
+        [Language.spanish]: "Jugar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To begin",
+        [Language.spanish]: "Empezar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To say, to tell",
+        [Language.spanish]: "Decir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To be able to",
+        [Language.spanish]: "Poder",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To want",
+        [Language.spanish]: "Querer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To prefer",
+        [Language.spanish]: "Preferir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Clothes",
+        [Language.spanish]: "La ropa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The pants",
+        [Language.spanish]: "El pantalón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The shirt",
+        [Language.spanish]: "La camisa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The neck tie",
+        [Language.spanish]: "La corbata",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The bow tie",
+        [Language.russian]: "Галстук-бабочка",
+        [Language.spanish]: "El lazo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The t-shirt",
+        [Language.spanish]: "La camiseta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The skirt",
+        [Language.spanish]: "La falda",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The blouse",
+        [Language.spanish]: "La blusa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The jacket",
+        [Language.spanish]: "La chaqueta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The coat",
+        [Language.spanish]: "El abrigo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The suit",
+        [Language.spanish]: "El traje",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The cap",
+        [Language.spanish]: "La gorra",
+        baseLanguage: Language.spanish,
+    },
+    
+    {
+        [Language.english]: "The socks",
+        [Language.spanish]: "Los calcetines",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The shoes",
+        [Language.spanish]: "Los zapatos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The tennis shoes",
+        [Language.spanish]: "Los tenis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A pair of tennis shoes",
+        [Language.spanish]: "Un par de tenis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A pair",
+        [Language.spanish]: "Un par",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The belt",
+        [Language.spanish]: "El cinturón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To wear",
+        [Language.spanish]: "Usar, llevar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I wear a green shirt",
+        [Language.spanish]: "Yo uso una camisa verde",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I'm wearing black shoes",
+        [Language.spanish]: "Yo llevo zapatos negros",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Who?",
+        [Language.spanish]: "¿Quén?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "No more and no less",
+        [Language.spanish]: "Ni más ni menos",
+        baseLanguage: Language.spanish,
+    },
 ];
-//¿¡óáíé
+//¿¡óáíéú
