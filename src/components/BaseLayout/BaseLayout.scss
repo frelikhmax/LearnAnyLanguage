@@ -1,0 +1,38 @@
+@import url('../../colors.scss');
+
+.BaseLayout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--body);
+  height: 100%;
+}
+
+.BaseLayout__Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+
+  background-color: var(--header);
+}
+
+.BaseLayout__Content {
+  padding-top: 100px;
+}
+
+.BaseLayout__Footer {
+}
+
+.BaseLayout__Header__Home {
+  display: flex;
+  align-items: center;
+}
+
+.BaseLayout__Header__Home a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
