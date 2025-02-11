@@ -207,7 +207,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Very well, thanks! And you?",
-        [Language.spanish]: "¡Muy bien (=Va)!¿Y tú?",
+        [Language.spanish]: "¡Muy bien (=Va), gracias!¿Y tú?",
         baseLanguage: Language.spanish,
     },
     {
