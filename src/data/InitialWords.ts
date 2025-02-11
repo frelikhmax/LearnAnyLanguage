@@ -1023,5 +1023,20 @@ export const initialWords: Word[] = [
         [Language.spanish]: "El champú",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "All",
+        [Language.spanish]: "Todo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Last",
+        [Language.spanish]: "Último/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "An hour",
+        [Language.spanish]: "Una hora",
+        baseLanguage: Language.spanish,
+    },
 ];
-//¿¡óáíéú
+//¿¡óáíéúÚ
