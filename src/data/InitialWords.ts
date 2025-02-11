@@ -964,7 +964,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Who?",
-        [Language.spanish]: "¿Quén?",
+        [Language.spanish]: "¿Quién?",
         baseLanguage: Language.spanish,
     },
     {
