@@ -1024,8 +1024,8 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "All",
-        [Language.spanish]: "Todo",
+        [Language.english]: "All (them)",
+        [Language.spanish]: "Todos/as",
         baseLanguage: Language.spanish,
     },
     {
@@ -1038,5 +1038,51 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Una hora",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Or",
+        [Language.spanish]: "O",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The window",
+        [Language.spanish]: "La ventana",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The chair",
+        [Language.spanish]: "La silla",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The couch",
+        [Language.spanish]: "El sofá",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The stairs",
+        [Language.spanish]: "Las escaleras",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The house",
+        [Language.spanish]: "La casa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Name",
+        [Language.spanish]: "Nombre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Mother",
+        [Language.spanish]: "Madre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Boy/girl",
+        [Language.spanish]: "Chiho/a",
+        baseLanguage: Language.spanish,
+    },
+
 ];
 //¿¡óáíéúÚ
