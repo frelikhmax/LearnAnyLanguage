@@ -1080,7 +1080,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Boy/girl",
-        [Language.spanish]: "Chiho/a",
+        [Language.spanish]: "Chico/a",
         baseLanguage: Language.spanish,
     },
 
