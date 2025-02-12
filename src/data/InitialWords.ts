@@ -1088,5 +1088,30 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Jugo",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "To shave",
+        [Language.spanish]: "Afeitar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To call",
+        [Language.spanish]: "Llamar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To use, to wear",
+        [Language.spanish]: "Usar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To carry, to bring",
+        [Language.spanish]: "Llevar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The kitchen",
+        [Language.spanish]: "La cocina",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéúÚ
