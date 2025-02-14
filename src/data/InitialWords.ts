@@ -1118,5 +1118,20 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Estoy bien",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Fire",
+        [Language.spanish]: "Fuego",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fireman",
+        [Language.spanish]: "Bombero",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Now",
+        [Language.spanish]: "Ahora",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéúÚ
