@@ -1133,5 +1133,25 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Ahora",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Mountain",
+        [Language.spanish]: "Montaa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Port, harbor",
+        [Language.spanish]: "Puerto",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Coast, shore",
+        [Language.spanish]: "Costa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Rich",
+        [Language.spanish]: "Rico/a",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéúÚ
