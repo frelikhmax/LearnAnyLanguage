@@ -1135,7 +1135,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Mountain",
-        [Language.spanish]: "Montaa",
+        [Language.spanish]: "Montaña",
         baseLanguage: Language.spanish,
     },
     {
