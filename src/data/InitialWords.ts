@@ -1153,5 +1153,210 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Rico/a",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Zero",
+        [Language.spanish]: "Cero",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "One",
+        [Language.spanish]: "Uno",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Two",
+        [Language.spanish]: "Dos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Three",
+        [Language.spanish]: "Tres",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Four",
+        [Language.spanish]: "Cuatro",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Five",
+        [Language.spanish]: "Cinco",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Six",
+        [Language.spanish]: "Seis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Seven",
+        [Language.spanish]: "Siete",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Eight",
+        [Language.spanish]: "Ocho",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Nine",
+        [Language.spanish]: "Nueve",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Ten",
+        [Language.spanish]: "Diez",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Eleven",
+        [Language.spanish]: "Once",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twelve",
+        [Language.spanish]: "Doce",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Thirteen",
+        [Language.spanish]: "Trece",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fourteen",
+        [Language.spanish]: "Catorce",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fifteen",
+        [Language.spanish]: "Quince",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Sixteen",
+        [Language.spanish]: "Dieciséis",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Seventeen",
+        [Language.spanish]: "Diecisiete",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Eighteen",
+        [Language.spanish]: "Dieciocho",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Nineteen",
+        [Language.spanish]: "Diecinueve",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twenty",
+        [Language.spanish]: "Veinte",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twenty one",
+        [Language.spanish]: "Veintiuno",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twenty two",
+        [Language.spanish]: "Veintidós",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twenty seven",
+        [Language.spanish]: "Veintisiete",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Thirty",
+        [Language.spanish]: "Treinta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Forty",
+        [Language.spanish]: "Cuarenta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fifty",
+        [Language.spanish]: "Cincuenta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Sixty",
+        [Language.spanish]: "Sesenta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Seventy",
+        [Language.spanish]: "Setenta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Eighty",
+        [Language.spanish]: "Ochenta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Ninety",
+        [Language.spanish]: "Noventa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A hundred",
+        [Language.spanish]: "Cien",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "One hundred and twenty",
+        [Language.spanish]: "Ciento veinte",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Two hundred",
+        [Language.spanish]: "Doscientos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Five hundred",
+        [Language.spanish]: "Quinientos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Seven hundred",
+        [Language.spanish]: "Setecientos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Nine hundred",
+        [Language.spanish]: "Novecientos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A thousand",
+        [Language.spanish]: "Mil",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Twelve thousand",
+        [Language.spanish]: "Doce mil",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A million",
+        [Language.spanish]: "Millón",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Two million",
+        [Language.spanish]: "Dos millones",
+        baseLanguage: Language.spanish,
+    },
 ];
 //¿¡óáíéúÚ
