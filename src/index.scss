@@ -1,14 +1,20 @@
+@import url('./colors.scss');
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+    border: none;
 }
 
-html, body, #root {
-    height: 100%;
+html,
+body {
+    min-height: 100vh;
 }
 
 #root {
     min-height: 100vh;
+    background-color: black;
+    color: var(--text);
 }

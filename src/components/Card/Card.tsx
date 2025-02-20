@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Card.css";
+import "./Card.scss";
 import { Word, Language } from "../../data/InitialWords";
 
 interface Props {

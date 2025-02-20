@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import Card from "../Card/Card";
-import "./Quiz.css";
+import "./Quiz.scss";
 import { shuffle } from "../../utils/ShuffleArray";
 import TranslatedWordsList from "../TranslatedWordsList/TranslatedWordsList";
 import { Word, Language } from "../../data/InitialWords";
