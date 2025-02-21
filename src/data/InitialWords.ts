@@ -582,7 +582,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Meat",
-        [Language.spanish]: "Carne",
+        [Language.spanish]: "La carne",
         baseLanguage: Language.spanish,
     },
     {
@@ -1356,6 +1356,141 @@ export const initialWords: Word[] = [
     {
         [Language.english]: "Two million",
         [Language.spanish]: "Dos millones",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's two-ten",
+        [Language.spanish]: "Son las dos y diez",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's half past five",
+        [Language.spanish]: "Son las cinco y media",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Average",
+        [Language.spanish]: "Media",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Turtle",
+        [Language.spanish]: "Tortuga",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's eight-fifty",
+        [Language.spanish]: "Son las nueve menos diez",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's  a quarter to one",
+        [Language.spanish]: "Es la una menos cuarto",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Food",
+        [Language.spanish]: "La comida",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Breakfast",
+        [Language.spanish]: "El desayuno",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Lunch",
+        [Language.spanish]: "El almuerzo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Dinner",
+        [Language.spanish]: "La cena",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Steak",
+        [Language.spanish]: "El bistec",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fish",
+        [Language.spanish]: "El pescado",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Chicken",
+        [Language.spanish]: "El pollo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Vegetables",
+        [Language.spanish]: "Los vegetales",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Potatoes",
+        [Language.spanish]: "Las papas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Carrots",
+        [Language.spanish]: "Las zanahorias",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Fruits",
+        [Language.spanish]: "Las frutas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Oranges",
+        [Language.spanish]: "Las naranjas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Apples",
+        [Language.spanish]: "Las manzanas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Tomatoes",
+        [Language.spanish]: "Los tomates",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Rice",
+        [Language.spanish]: "El arroz",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Egg",
+        [Language.spanish]: "El huevo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Roasted",
+        [Language.spanish]: "Asado",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To please",
+        [Language.spanish]: "Gustar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "We like apples",
+        [Language.spanish]: "Nos gustan las manzanas",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "She likes meat",
+        [Language.spanish]: "Le gusta la carne",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Afternoon nap",
+        [Language.spanish]: "Siesta",
         baseLanguage: Language.spanish,
     },
 ];
