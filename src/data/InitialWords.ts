@@ -1075,7 +1075,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Mother",
-        [Language.spanish]: "Madre",
+        [Language.spanish]: "La madre",
         baseLanguage: Language.spanish,
     },
     {
@@ -1531,6 +1531,163 @@ export const initialWords: Word[] = [
     {
         [Language.english]: "The airplane",
         [Language.spanish]: "El avión",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The family",
+        [Language.spanish]: "La familia",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Relatives",
+        [Language.spanish]: "Los parientes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Father",
+        [Language.spanish]: "El padre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Parents",
+        [Language.spanish]: "Los padres",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Husband",
+        [Language.spanish]: "El esposo, el marido",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Wife",
+        [Language.spanish]: "La esposa, la mujer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Son",
+        [Language.spanish]: "El hijo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Daughter",
+        [Language.spanish]: "La hija",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Grandfather",
+        [Language.spanish]: "El abuelo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Grandmother",
+        [Language.spanish]: "La abuela",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Uncle",
+        [Language.spanish]: "El tío",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Aunt",
+        [Language.spanish]: "La tía",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Grandson",
+        [Language.spanish]: "El nieto",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Granddaughter",
+        [Language.spanish]: "La nieta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Boy cousin",
+        [Language.spanish]: "El primo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Girl cousin",
+        [Language.spanish]: "La prima",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Nephew",
+        [Language.spanish]: "El sobrino",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Niece",
+        [Language.spanish]: "La sobrina",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Cat",
+        [Language.spanish]: "El gato",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Dog",
+        [Language.spanish]: "El perro",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Old",
+        [Language.spanish]: "Viejo/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Young",
+        [Language.spanish]: "Joven",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To have",
+        [Language.spanish]: "Tener",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I have two brothers",
+        [Language.spanish]: "Tengo dos hermanos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "How many sisters does he have?",
+        [Language.spanish]: "¿Cuántas hermanas tiene?",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "I don't have",
+        [Language.spanish]: "No tengo",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "Years",
+        [Language.spanish]: "Años",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "His name is Jack",
+        [Language.spanish]: "Su nombre es Jack",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "He is forty three years old",
+        [Language.spanish]: "Él tiene cuarenta y tres años",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "Her sister",
+        [Language.spanish]: "Su hermana",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "Her sisters",
+        [Language.spanish]: "Sus hermanas",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "Their (girls') names are Amber and Jennifer",
+        [Language.spanish]: "Sus nombres son Amber y Jennifer",
+        baseLanguage: Language.spanish,
+    },{
+        [Language.english]: "They (girls) are forty and thirty years old",
+        [Language.spanish]: "Ellas tienen cuarenta y treinta años",
         baseLanguage: Language.spanish,
     },
 ];
