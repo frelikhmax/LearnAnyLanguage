@@ -916,7 +916,7 @@ export const initialWords: Word[] = [
         [Language.spanish]: "La gorra",
         baseLanguage: Language.spanish,
     },
-    
+
     {
         [Language.english]: "The socks",
         [Language.spanish]: "Los calcetines",
@@ -1491,6 +1491,46 @@ export const initialWords: Word[] = [
     {
         [Language.english]: "Afternoon nap",
         [Language.spanish]: "Siesta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Little pig",
+        [Language.spanish]: "Cerdito/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The bed",
+        [Language.spanish]: "La cama",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To die",
+        [Language.spanish]: "Morir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To feel, to sense",
+        [Language.spanish]: "Sentir",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To worry",
+        [Language.spanish]: "Preocupar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To watch, to look at",
+        [Language.spanish]: "Mirar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Why?",
+        [Language.spanish]: "¿Por qué?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The airplane",
+        [Language.spanish]: "El avión",
         baseLanguage: Language.spanish,
     },
 ];
