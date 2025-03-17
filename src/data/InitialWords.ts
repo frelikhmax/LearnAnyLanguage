@@ -1935,7 +1935,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "In Bolivia in December it's too hot",
-        [Language.spanish]: "En Bolivia, en deciembre hace mucho calor",
+        [Language.spanish]: "En Bolivia, en diciembre hace mucho calor",
         baseLanguage: Language.spanish,
     },
 ];
