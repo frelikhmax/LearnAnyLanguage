@@ -1657,22 +1657,22 @@ export const initialWords: Word[] = [
         [Language.english]: "How many sisters does he have?",
         [Language.spanish]: "¿Cuántas hermanas tiene?",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "I don't have",
         [Language.spanish]: "No tengo",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "Years",
         [Language.spanish]: "Años",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "His name is Jack",
         [Language.spanish]: "Su nombre es Jack",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "He is forty three years old",
         [Language.spanish]: "Él tiene cuarenta y tres años",
@@ -1682,27 +1682,27 @@ export const initialWords: Word[] = [
         [Language.english]: "Her sister",
         [Language.spanish]: "Su hermana",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "Her sisters",
         [Language.spanish]: "Sus hermanas",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "Their (girls') names are Amber and Jennifer",
         [Language.spanish]: "Sus nombres son Amber y Jennifer",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "They (girls) are forty and thirty years old",
         [Language.spanish]: "Ellas tienen cuarenta y treinta años",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "What's the weather like today?",
         [Language.spanish]: "¿Qué tiempo hace hoy?",
         baseLanguage: Language.spanish,
-    }, 
+    },
     {
         [Language.english]: "It's cloudy",
         [Language.spanish]: "Está nublado",
@@ -1758,5 +1758,184 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Llueve",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "Monday",
+        [Language.spanish]: "Lunes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Tuesday",
+        [Language.spanish]: "Martes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Wednesday",
+        [Language.spanish]: "Miércoles",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Thursday",
+        [Language.spanish]: "Jueves",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Friday",
+        [Language.spanish]: "Viernes",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Saturday",
+        [Language.spanish]: "Sábado",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Sunday",
+        [Language.spanish]: "Domingo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "January",
+        [Language.spanish]: "Enero",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "February",
+        [Language.spanish]: "Febrero",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "March",
+        [Language.spanish]: "Marzo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "April",
+        [Language.spanish]: "Abril",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "May",
+        [Language.spanish]: "Mayo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "June",
+        [Language.spanish]: "Junio",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "July",
+        [Language.spanish]: "Julio",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "August",
+        [Language.spanish]: "Agosto",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "September",
+        [Language.spanish]: "Septiembre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "October",
+        [Language.spanish]: "Octubre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "November",
+        [Language.spanish]: "Noviembre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "December",
+        [Language.spanish]: "Diciembre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Today is Wednesday",
+        [Language.spanish]: "Hoy es miércoles",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "What day is today?",
+        [Language.spanish]: "¿Qué día es hoy?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "What is the date?",
+        [Language.spanish]: "¿Cuál es la fecha?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Which",
+        [Language.spanish]: "Cuál",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The date",
+        [Language.spanish]: "La fecha",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Today is the third of March",
+        [Language.spanish]: "Hoy es el tres de marzo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Of",
+        [Language.spanish]: "De",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Today is the tenth of June",
+        [Language.spanish]: "Hoy es el diez de junio",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "When is your birthday?",
+        [Language.spanish]: "¿Cuándo es tu cumpleaños?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "My birthday is the twenty-third of October",
+        [Language.spanish]: "Mi cumpleaños es el veintitrés de octubre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Winter",
+        [Language.spanish]: "El invierno",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Spring",
+        [Language.spanish]: "La primavera",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Summer",
+        [Language.spanish]: "El verano",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Autumn",
+        [Language.spanish]: "El otoño",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "In Bolivia in summer it's cold",
+        [Language.spanish]: "En Bolivia, en el verano hace frío",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "When?",
+        [Language.spanish]: "¿Cuándo?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "In Bolivia in December it's too hot",
+        [Language.spanish]: "En Bolivia, en deciembre hace mucho calor",
+        baseLanguage: Language.spanish,
+    },
 ];
-//¿¡óáíéúÚ
