@@ -1657,37 +1657,105 @@ export const initialWords: Word[] = [
         [Language.english]: "How many sisters does he have?",
         [Language.spanish]: "¿Cuántas hermanas tiene?",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "I don't have",
         [Language.spanish]: "No tengo",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "Years",
         [Language.spanish]: "Años",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "His name is Jack",
         [Language.spanish]: "Su nombre es Jack",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "He is forty three years old",
         [Language.spanish]: "Él tiene cuarenta y tres años",
         baseLanguage: Language.spanish,
-    },{
+    },
+    {
         [Language.english]: "Her sister",
         [Language.spanish]: "Su hermana",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "Her sisters",
         [Language.spanish]: "Sus hermanas",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "Their (girls') names are Amber and Jennifer",
         [Language.spanish]: "Sus nombres son Amber y Jennifer",
         baseLanguage: Language.spanish,
-    },{
+    }, 
+    {
         [Language.english]: "They (girls) are forty and thirty years old",
         [Language.spanish]: "Ellas tienen cuarenta y treinta años",
+        baseLanguage: Language.spanish,
+    }, 
+    {
+        [Language.english]: "What's the weather like today?",
+        [Language.spanish]: "¿Qué tiempo hace hoy?",
+        baseLanguage: Language.spanish,
+    }, 
+    {
+        [Language.english]: "It's cloudy",
+        [Language.spanish]: "Está nublado",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Cloud",
+        [Language.spanish]: "Nube",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's sunny",
+        [Language.spanish]: "Hace sol",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's hot",
+        [Language.spanish]: "Hace calor",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's cold",
+        [Language.spanish]: "Hace frío",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's good weather",
+        [Language.spanish]: "Hace buen tiempo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Bad",
+        [Language.spanish]: "Mal",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's bad weather",
+        [Language.spanish]: "Hace mal tiempo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The sun shines",
+        [Language.spanish]: "El sol brilla",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To rain",
+        [Language.spanish]: "Llover",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It's raining",
+        [Language.spanish]: "Llueve",
         baseLanguage: Language.spanish,
     },
 ];
