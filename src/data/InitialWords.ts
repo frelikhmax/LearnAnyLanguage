@@ -1938,4 +1938,84 @@ export const initialWords: Word[] = [
         [Language.spanish]: "En Bolivia, en diciembre hace mucho calor",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "To get oneself up",
+        [Language.spanish]: "Levantarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To wash oneself",
+        [Language.spanish]: "Lavarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To bathe oneself",
+        [Language.spanish]: "Bañarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Bathroom",
+        [Language.spanish]: "Baño",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Where is the restroom?",
+        [Language.spanish]: "¿Dónde está el baño?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To shave oneself",
+        [Language.spanish]: "Afeitarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To get oneself dressed",
+        [Language.spanish]: "Ponerse la ropa",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To look at oneself",
+        [Language.spanish]: "Mirarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To put on makeup to oneself",
+        [Language.spanish]: "Maquillarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To brush oneself",
+        [Language.spanish]: "Cepillarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To comb oneself",
+        [Language.spanish]: "Peinarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To have breakfast oneself",
+        [Language.spanish]: "Desayunarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To call oneself",
+        [Language.spanish]: "Llamarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I bathe",
+        [Language.spanish]: "Me baño",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To wake oneself up",
+        [Language.spanish]: "Despertarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To sit oneself down",
+        [Language.spanish]: "Sentarse",
+        baseLanguage: Language.spanish,
+    },
 ];
