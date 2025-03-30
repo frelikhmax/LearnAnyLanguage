@@ -2018,4 +2018,14 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Sentarse",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "A man",
+        [Language.spanish]: "Un hombre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A woman",
+        [Language.spanish]: "Una mujer",
+        baseLanguage: Language.spanish,
+    },
 ];
