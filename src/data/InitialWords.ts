@@ -2019,6 +2019,26 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
+        [Language.english]: "To put oneself to bed",
+        [Language.spanish]: "Acostarse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To fall asleep",
+        [Language.spanish]: "Dormirse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To enjoy oneself",
+        [Language.spanish]: "Divertirse",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "He goes to bed",
+        [Language.spanish]: "Se acuesta",
+        baseLanguage: Language.spanish,
+    },
+    {
         [Language.english]: "A man",
         [Language.spanish]: "Un hombre",
         baseLanguage: Language.spanish,
