@@ -91,7 +91,7 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Too",
+        [Language.english]: "Very, too",
         [Language.spanish]: "Muy",
         baseLanguage: Language.spanish,
     },
@@ -292,7 +292,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Pen",
-        [Language.spanish]: "Bolígrafo",
+        [Language.spanish]: "Bolígrafo, pluma",
         baseLanguage: Language.spanish,
     },
     {
@@ -1024,8 +1024,8 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "All (them)",
-        [Language.spanish]: "Todos/as",
+        [Language.english]: "All, everything, everybody",
+        [Language.spanish]: "Todo/a(-s)",
         baseLanguage: Language.spanish,
     },
     {
@@ -2048,4 +2048,127 @@ export const initialWords: Word[] = [
         [Language.spanish]: "Una mujer",
         baseLanguage: Language.spanish,
     },
+    {
+        [Language.english]: "A lot of",
+        [Language.spanish]: "Mucho",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "It(-s)",
+        [Language.spanish]: "Lo, la, los, las",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The same",
+        [Language.spanish]: "Mismo/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "By no means",
+        [Language.spanish]: "De ninguna manera",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Around",
+        [Language.spanish]: "Alrededor de",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Also, too",
+        [Language.spanish]: "También",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Before",
+        [Language.spanish]: "Antes de",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "After",
+        [Language.spanish]: "Después de",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To walk",
+        [Language.spanish]: "Caminar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Before walking",
+        [Language.spanish]: "Antes de caminar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "After eating",
+        [Language.spanish]: "Después de comer",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Together",
+        [Language.spanish]: "Juntos",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Immediately, right away",
+        [Language.spanish]: "Enseguida",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Near something",
+        [Language.spanish]: "Cerca de",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Far from",
+        [Language.spanish]: "Lejos de",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "We live near the museum",
+        [Language.spanish]: "Nosotros vivimos cerca del museo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Sometimes",
+        [Language.spanish]: "A veces, de vez en cuando",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "We speak Spanish sometimes",
+        [Language.spanish]: "Hablamos español a veces",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A marker",
+        [Language.spanish]: "Un marcador",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A folder",
+        [Language.spanish]: "Una carpeta",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Where is my carpeta?",
+        [Language.spanish]: "¿Dónde está mi carpeta?",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "I have it (feminine)",
+        [Language.spanish]: "La tengo",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "He has them (feminine)",
+        [Language.spanish]: "Él las tiene",
+        baseLanguage: Language.spanish,
+    }, {
+        [Language.english]: "Who has my pens?",
+        [Language.spanish]: "¿Quién tiene mis plumas?",
+        baseLanguage: Language.spanish,
+    }, {
+        [Language.english]: "We have them (feminine)",
+        [Language.spanish]: "Nosotros las tenemos",
+        baseLanguage: Language.spanish,
+    }
 ];
