@@ -2149,7 +2149,7 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Where is my carpeta?",
+        [Language.english]: "Where is my folder?",
         [Language.spanish]: "¿Dónde está mi carpeta?",
         baseLanguage: Language.spanish,
     },
@@ -2169,6 +2169,36 @@ export const initialWords: Word[] = [
     }, {
         [Language.english]: "We have them (feminine)",
         [Language.spanish]: "Nosotros las tenemos",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "Lawyer",
+        [Language.spanish]: "Abogado",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "Laundry",
+        [Language.spanish]: "Lavandería",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "USA",
+        [Language.spanish]: "Estados unidos",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "Border",
+        [Language.spanish]: "Frontera",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "Big",
+        [Language.spanish]: "Grande",
+        baseLanguage: Language.spanish,
+    }
+    , {
+        [Language.english]: "Why not?",
+        [Language.spanish]: "¿Por qué no?",
         baseLanguage: Language.spanish,
     }
 ];
