@@ -2162,43 +2162,90 @@ export const initialWords: Word[] = [
         [Language.english]: "He has them (feminine)",
         [Language.spanish]: "Él las tiene",
         baseLanguage: Language.spanish,
-    }, {
+    },
+    {
         [Language.english]: "Who has my pens?",
         [Language.spanish]: "¿Quién tiene mis plumas?",
         baseLanguage: Language.spanish,
-    }, {
+    },
+    {
         [Language.english]: "We have them (feminine)",
         [Language.spanish]: "Nosotros las tenemos",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "Lawyer",
         [Language.spanish]: "Abogado",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "Laundry",
         [Language.spanish]: "Lavandería",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "USA",
         [Language.spanish]: "Estados unidos",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "Border",
         [Language.spanish]: "Frontera",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "Big",
         [Language.spanish]: "Grande",
         baseLanguage: Language.spanish,
-    }
-    , {
+    },
+    {
         [Language.english]: "Why not?",
         [Language.spanish]: "¿Por qué no?",
         baseLanguage: Language.spanish,
-    }
+    },
+    {
+        [Language.english]: "A school",
+        [Language.spanish]: "Una escuela",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To shine",
+        [Language.spanish]: "Brillar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To cost",
+        [Language.spanish]: "Costar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The blood",
+        [Language.spanish]: "La sangre",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "A song",
+        [Language.spanish]: "Una canción",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Still, yet",
+        [Language.spanish]: "Todavía",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To enter",
+        [Language.spanish]: "Entrar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To ask",
+        [Language.spanish]: "Preguntar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "To understand",
+        [Language.spanish]: "Entender",
+        baseLanguage: Language.spanish,
+    },
 ];
