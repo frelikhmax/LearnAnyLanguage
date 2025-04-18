@@ -172,7 +172,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Sorry",
-        [Language.spanish]: "Perdón",
+        [Language.spanish]: "Perdón, lo siento",
         baseLanguage: Language.spanish,
     },
     {
@@ -212,7 +212,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "How are you?",
-        [Language.spanish]: "¿Cómo estás?",
+        [Language.spanish]: "¿Cómo estás? ¿Qué tal?",
         baseLanguage: Language.spanish,
     },
     {
@@ -397,7 +397,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Funny",
-        [Language.spanish]: "Cómico/a, gracioso/a",
+        [Language.spanish]: "Divertido/a, cómico/a, gracioso/a",
         baseLanguage: Language.spanish,
     },
     {
@@ -1080,7 +1080,7 @@ export const initialWords: Word[] = [
     },
     {
         [Language.english]: "Boy/girl",
-        [Language.spanish]: "Chico/a",
+        [Language.spanish]: "Niño/a, chico/a",
         baseLanguage: Language.spanish,
     },
     {
@@ -1734,7 +1734,7 @@ export const initialWords: Word[] = [
         baseLanguage: Language.spanish,
     },
     {
-        [Language.english]: "Bad",
+        [Language.english]: "Bad, unwell",
         [Language.spanish]: "Mal",
         baseLanguage: Language.spanish,
     },
@@ -2246,6 +2246,71 @@ export const initialWords: Word[] = [
     {
         [Language.english]: "To understand",
         [Language.spanish]: "Entender",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Tired",
+        [Language.spanish]: "Cansado/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Busy",
+        [Language.spanish]: "Ocupado/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "But",
+        [Language.spanish]: "Pero",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Boring",
+        [Language.spanish]: "Aburrido/a",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "The cheese",
+        [Language.spanish]: "El queso",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "With",
+        [Language.spanish]: "Con",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Without",
+        [Language.spanish]: "Sin",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Arrive, reach, come",
+        [Language.spanish]: "Llegar",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "For",
+        [Language.spanish]: "Para",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "This",
+        [Language.spanish]: "Este/a/o",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "These",
+        [Language.spanish]: "Estos/as",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "That",
+        [Language.spanish]: "Ese/a/o",
+        baseLanguage: Language.spanish,
+    },
+    {
+        [Language.english]: "Those",
+        [Language.spanish]: "Esos/as",
         baseLanguage: Language.spanish,
     },
 ];
